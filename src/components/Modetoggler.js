@@ -5,7 +5,7 @@ function ModeToggler(){
     let lightMode = <h1>Light Mode is On</h1>
     let [darkModeOn, setMode] = useState(true); 
     const toggleButton = ()=> {
-        setMode(!darkModeOn);  // you can't change the value directly, you have to use 'useState'
+        setMode(!darkModeOn);  // you can't change the value directly, you have to use 'useState' hook
     }
     return(
         <div>
